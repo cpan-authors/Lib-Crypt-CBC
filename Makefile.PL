@@ -9,6 +9,7 @@ WriteMakefile(
 	'Digest::SHA'        => 0,
         'Crypt::PBKDF2'      => 0,
 	'Crypt::Cipher::AES' => 0,
+	'Crypt::URandom'     => 0,
     },
     'LIBS'	=> [''],   # e.g., '-lm' 
     'DEFINE'	=> '',     # e.g., '-DHAVE_SOMETHING' 

@@ -1,4 +1,7 @@
 Revision history for Perl extension Crypt::CBC.
+
+         - Fixed CVE-2025-2814 by using Crypt::URandom to read random bytes.
+
 3.05	 Thu 20 May 2021 12:00:18 PM EDT
 	 - Fixed bug involving manually-specified key not being used in some circumstances.
 	 
