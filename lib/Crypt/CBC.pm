@@ -5,9 +5,8 @@ use Carp 'croak','carp';
 use Crypt::CBC::PBKDF;
 use Crypt::URandom ();
 use bytes;
-use vars qw($VERSION);
 no warnings 'uninitialized';
-$VERSION = '3.05';
+# VERSION
 
 use constant DEFAULT_PBKDF      => 'opensslv1';
 use constant DEFAULT_ITER       => 10_000;  # same as OpenSSL default

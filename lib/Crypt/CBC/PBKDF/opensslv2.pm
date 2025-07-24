@@ -3,6 +3,7 @@ use strict;
 use base 'Crypt::CBC::PBKDF::opensslv1';
 use Digest::SHA 'sha256';
 
+# VERSION
 # options:
 # key_len    => 32    default
 # iv_len     => 16    default
