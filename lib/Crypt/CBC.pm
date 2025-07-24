@@ -1254,7 +1254,7 @@ keysize. This is useful for several of the newer algorithms, including
 AES, ARIA, Blowfish, and CAMELLIA. If -keysize is not specified, then
 Crypt::CBC will use the value returned by the cipher's max_keylength()
 method. Note that versions of CBC::Crypt prior to 2.36 could also
-allow you to set the blocksie, but this was never supported by any
+allow you to set the blocksize, but this was never supported by any
 ciphers and has been removed.
 
 For compatibility with earlier versions of this module, you can
