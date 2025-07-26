@@ -1536,6 +1536,8 @@ Please report them.
 
 Lincoln Stein, lstein@cshl.org
 
+=head1 LICENSE
+
 This module is distributed under the ARTISTIC LICENSE v2 using the
 same terms as Perl itself.
 
