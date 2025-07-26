@@ -5,9 +5,8 @@ use Carp 'croak','carp';
 use Crypt::CBC::PBKDF;
 use Crypt::URandom ();
 use bytes;
-use vars qw($VERSION);
 no warnings 'uninitialized';
-$VERSION = '3.05';
+# VERSION
 
 use constant DEFAULT_PBKDF      => 'opensslv1';
 use constant DEFAULT_ITER       => 10_000;  # same as OpenSSL default
@@ -1255,7 +1254,7 @@ keysize. This is useful for several of the newer algorithms, including
 AES, ARIA, Blowfish, and CAMELLIA. If -keysize is not specified, then
 Crypt::CBC will use the value returned by the cipher's max_keylength()
 method. Note that versions of CBC::Crypt prior to 2.36 could also
-allow you to set the blocksie, but this was never supported by any
+allow you to set the blocksize, but this was never supported by any
 ciphers and has been removed.
 
 For compatibility with earlier versions of this module, you can
@@ -1535,6 +1534,8 @@ Please report them.
 =head1 AUTHOR
 
 Lincoln Stein, lstein@cshl.org
+
+=head1 LICENSE
 
 This module is distributed under the ARTISTIC LICENSE v2 using the
 same terms as Perl itself.

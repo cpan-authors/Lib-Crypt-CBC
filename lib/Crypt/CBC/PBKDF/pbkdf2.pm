@@ -4,6 +4,7 @@ use strict;
 use base 'Crypt::CBC::PBKDF';
 use Crypt::PBKDF2;
 
+# VERSION
 # options:
 # key_len    => 32    default
 # iv_len     => 16    default
